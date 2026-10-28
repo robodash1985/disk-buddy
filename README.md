@@ -28,6 +28,8 @@ Requires Windows 10/11. Uses Windows PowerShell 5.1, which every Windows has.
 
    This registers a notification identity, a `diskbuddy:` link handler for the notification buttons, a `diskbuddy` command for Win+R, a Start-menu entry, and a scheduled task that runs the check every 15 minutes. It creates `config.json` from `config.example.json` if you have none, then shows a test notification.
 
+   Windows may warn that the scripts came from the internet. They are plain text you can read before running; the command above runs them regardless of the execution policy.
+
 `Uninstall-DiskBuddy.ps1` removes all of that again. The folder itself is left for you to delete.
 
 ## Using it
