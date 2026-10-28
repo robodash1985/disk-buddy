@@ -1,0 +1,14 @@
+# Your own settings and runtime files - never committed
+config.json
+state.json
+diskbuddy.log
+diskbuddy.log.old
+report.html
+
+# Built by Install-DiskBuddy.ps1
+diskbuddy.exe
+icon.png
+
+# Backups and scratch
+*.bak*
+*.tmp

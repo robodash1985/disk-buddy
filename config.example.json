@@ -1,0 +1,41 @@
+{
+  "Drive": "C",
+  "WarnFreeGB": 50,
+  "CriticalFreeGB": 25,
+  "DropAlertGB": 10,
+  "WarnRepeatHours": 24,
+  "CriticalRepeatHours": 4,
+  "SnoozeHours": 24,
+  "DockerPruneOlderThanHours": 168,
+  "TempOlderThanDays": 7,
+  "ArchiveMinMB": 50,
+  "DeepScanHours": 24,
+  "CacheAlertGB": 15,
+  "DigestRepeatHours": 168,
+  "OrphanMonths": 6,
+  "OldInstallerDays": 30,
+  "BigPackageGB": 0.5,
+  "BigFolderMinGB": 2,
+  "WaitForDesktopMinutes": 13,
+  "Sound": true,
+  "SoundAlert": "Windows Notify System Generic.wav",
+  "SoundCritical": "Windows Notify Calendar.wav",
+  "SoundDone": "Windows Notify Messaging.wav",
+
+  "Profile": "default",
+  "Profiles": {
+    "default": {
+      "Groups": "*",
+      "Focus": []
+    },
+    "dev": {
+      "Groups": ["system", "docker", "node", "python", "ai", "browsers", "downloads"],
+      "Focus": ["%USERPROFILE%\\source\\*", "%USERPROFILE%\\projects\\*", "%LOCALAPPDATA%\\Docker"]
+    },
+    "gaming": {
+      "Groups": ["system", "gpu", "games", "apps", "downloads"],
+      "Focus": ["D:\\SteamLibrary\\steamapps\\common", "%USERPROFILE%\\AppData\\LocalLow"],
+      "WarnFreeGB": 80
+    }
+  }
+}
