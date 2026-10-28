@@ -15,11 +15,17 @@ It is built for people who fill a drive without noticing: developers (Docker, pn
 
 It never deletes project files, named Docker volumes, anything in the Recycle Bin, or anything listed under "Worth a look".
 
+## Download
+
+**[Download DiskBuddy.zip](https://github.com/robodash1985/disk-buddy/releases/latest/download/DiskBuddy.zip)** (latest release) - or see all versions on the [Releases page](https://github.com/robodash1985/disk-buddy/releases).
+
+The zip holds a single `Disk Buddy` folder with everything you need: the script, the installer and uninstaller, the example settings, this README and the license. Nothing else is downloaded or installed.
+
 ## Install
 
-Requires Windows 10/11. Uses Windows PowerShell 5.1, which every Windows has.
+Requires Windows 10/11. Uses Windows PowerShell 5.1, which every Windows has. No admin rights.
 
-1. Put the folder somewhere permanent, for example `C:\Users\<you>\Disk Buddy`.
+1. Extract the zip and put the `Disk Buddy` folder somewhere permanent, for example `C:\Users\<you>\Disk Buddy`.
 2. Right-click `Install-DiskBuddy.ps1` and choose **Run with PowerShell**, or from a terminal:
 
    ```powershell
